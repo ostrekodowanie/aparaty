@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="icon" href="./favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <title>Aparaty fotograficzne</title>
+</head>
+<body style="visibility: hidden;">
+    <div class="loading-screen">
+        <img src="./images/loading.svg" alt="">
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">Aparaty fotograficzne</div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="navbar">
+                <a href="">STRONA GŁÓWNA</a>
+                <a href="#portfolio-section">RODZAJE</a>
+                <a href="#budowa-section">BUDOWA</a>
+                <a href="#dzialanie-section">DZIAŁANIE</a>
+            </nav>
+        </header>
+        <main>
+            <div class="landing-wrapper">
+                <section class="landing-main">
+                    <div class="main-titles">
+                        <h1>
+                            <span>Aparaty</span>
+                            <span>fotograficzne</span>
+                        </h1>
+                        <h2>Filip Ferencz 3gs</h2>
+                    </div>
+                </section>
+                <footer class="landing-footer">
+                    <a href="#about-us-section"><img src="./images/akar-icons_chevron-down.svg" alt=""></a>
+                </footer>
+            </div>
+            <div class="section-wrapper">
+                <div class="aside"></div>
+                <div class="aside"></div>
+                <section class="about-us section" id="about-us-section">
+                    <div class="description a">
+                        <img src="./images/photo-camera-svgrepo-com.svg" alt="">
+                        <p>Klasyczny aparat fotograficzny jest urządzeniem przystosowanym do naświetlania materiału światłoczułego, umieszczanego we wnętrzu aparatu w postaci zwiniętej błony, wymiennej kasety z błonami ciętymi lub też kliszy szklanej.</p>
+                    </div>
+                    <div class="description b">
+                        <img src="./images/description.svg" alt="">
+                        <p>Aparat cyfrowy zapisuje obraz podobnie jak informacje zapisywane są w pamięci komputera. Jego zaletą jest to, że otrzymane zdjęcia mogą być w prosty sposób modyfikowane na komputerze, a następnie drukowane w dowolnej liczbie kopii. </p>
+                    </div>
+                </section>
+                <section class="portfolio section" id="portfolio-section">
+                    <h2>Rodzaje aparatów fotograficznych</h2>
+                    <div class="project one a">
+                        <div class="slider-container">
+                            <div class="arrow a"><img src="./images/arrow.svg" alt=""></div>
+                            <div class="slider-wrapper">
+                                <div class="slider business a">
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project1/1.png" alt="">
+                                    </a>
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project1/2.png" alt="">
+                                    </a>
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project1/3.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="arrow a"><img src="./images/arrow.svg" alt=""></div>
+                            <nav class="nav-dots">
+                                <div class="dot business active a"></div>
+                                <div class="dot business a"></div>
+                                <div class="dot business a"></div>
+                            </nav>
+                        </div>
+                        <div class="types-text">
+                            <h3>Aparat lustrzanka</h3>
+                            <p>Wyposażony jest w lustro i matówkę. Zadaniem 
+                                zespołu lustra i matówki jest dokładna prezentacja bieżącego kadru. Rozwiązanie 
+                                takie ma znaczenie przy precyzyjnym nastawianiu odległości fotografowania.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-paragraph a">
+                        <div>
+                            <p>Dzięki wyposażeniu aparatu lustrzanego w lustro i matówkę umożliwia on ustawienie takich parametrów jak głębi ostrości, aberracji optycznych, kadrowania  obiektów  nieodległych.  Sprzyja  również  kompozycji  kadru czy ocenie 
+                                proporcji oświetlenia.</p>
+                            <p>Lustrzanki możemy podzielić na:</p>
+                            <ul>
+                                <li>klasyczne,</li>
+                                <li>cyfrowe - tzw. DSRL - rolę materiału światłoczułego spełnia matryca światłoczuła; w zależności od rozwiązania jest to matryca CCD lub matryca CMOS,</li>
+                                <li>jednoobiektywowe - wyposażona w pojedynczy obiektyw oraz ruchome lustro, które odbija światło z obiektywu na matówkę, umożliwiając podgląd obrazu,</li>
+                                <li>dwuobiektywowe - charakteryzujące się zwartą i sztywną konstrukcją. Górny obiektyw z lustrem i matówką służy do kadrowania i ustawiania ostrości, a dolny do wykonywania zdjęć</li>
+                            </ul>    
+                            
+                        </div>
+                    </div>
+                    <div class="project two b">
+                        <div class="slider-container">
+                            <div class="arrow b"><img src="./images/arrow.svg" alt=""></div>
+                            <div class="slider-wrapper">
+                                <div class="slider business b">
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project2/1-removebg-preview.png" alt="">
+                                    </a>
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project2/2-removebg-preview.png" alt="">
+                                    </a>
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project2/3-removebg-preview.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="arrow b"><img src="./images/arrow.svg" alt=""></div>
+                            <nav class="nav-dots">
+                                <div class="dot business active b"></div>
+                                <div class="dot business b"></div>
+                                <div class="dot business b"></div>
+                            </nav>
+                        </div>
+                        <div class="types-text">
+                            <h3>Aparat bezlusterkowy</h3>
+                            <p> jest to aparat cyfrowe, które nie posiada lustra. Zastosowanie matryc cyfrowych umożliwia zapis zdjęć oraz podgląd na żywo tego, co widzi aparat przez obiektyw. Materiał światłoczuły w postaci matrycy znajduje się tuż za obiektywem.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-paragraph">
+                        <div>
+                            <p>W początkowym okresie w bezlusterkowcach wykorzystywano autofokus oparty na detekcji kontrastu, który nadal z bardzo dobrymi rezultatami jest oferowany w systemie Mikro 4/3</p><p>Z czasem producenci zaczęli wzbogacać swoje bezlusterkowce w czujniki fazy, które zdecydowanie lepiej sprawdzają się na większych matrycach APS-C albo FF. 
+                            </p>
+                            <p> Aparaty bezlusterkowe nie posiadają lustra, co sprawia, że przy identycznym rozmiarze matrycy zapewniają mniejsze rozmiary niż lustrzanki.</p> <p>Taka różnica nie dotyczy jednak samych obiektywów, które mają podobne gabaryty. Oznacza to w praktyce, że pełnoklatkowy bezlusterkowiec będzie miał podobne rozmiary obiektywów, co pełnoklatkowa lustrzanka.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="project one c">
+                        <div class="slider-container">
+                            <div class="arrow c"><img src="./images/arrow.svg" alt=""></div>
+                            <div class="slider-wrapper">
+                                <div class="slider business c">
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project3/1.png" alt="">
+                                    </a>
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project3/2.png" alt="">
+                                    </a>
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project3/3.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="arrow c"><img src="./images/arrow.svg" alt=""></div>
+                            <nav class="nav-dots">
+                                <div class="dot business active c"></div>
+                                <div class="dot business c"></div>
+                                <div class="dot business c"></div>
+                            </nav>
+                        </div>
+                        <div class="types-text">
+                            <h3>Aparat kompaktowy</h3>
+                            <p>charakteryzuje się niewielkimi rozmiarami, dość ograniczoną liczbą funkcji dodatkowych, a często w ogóle brakiem trybu manualnego. Posiada stały obiektyw, którego nie można wymienić.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-paragraph">
+                        <div>
+                            <p>Pod względem gabarytów aparaty kompaktowe zaliczają się najmniejszych na rynku. Istnieją natomiast wśród nich modele dość duże, wyposażone w matryce, pełnoklatkowe albo APS-C, jak np. Leica Q, Sony RX1 czy Fujifilm X70, jednak w tej klasie aparatów są to i tak najmniejsze propozycje.</p>
+                            <p>Aparaty kompaktowe to bardzo różnorodna grupa, w której znajdziemy aparaty od kieszonkowych, wodoodpornych, przez superzoomy, do tych wyposażonych w pełnoklatkową matrycę i stałoogniskowe obiektywy.</p>
+                        </div>
+                    </div>
+                    <div class="project two d">
+                        <div class="slider-container">
+                            <div class="arrow d"><img src="./images/arrow.svg" alt=""></div>
+                            <div class="slider-wrapper">
+                                <div class="slider business d">
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project4/104327_IMG_2993-removebg-preview.png" alt="">
+                                    </a>
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project4/2016_Konica_Auto_S3_1-removebg-preview.png" alt="">
+                                    </a>
+                                    <a class="project-images" href="http://businessportfoliosite.herokuapp.com/">
+                                        <img src="./images/project4/312ea2d7-9925-4171-9898-d0122e769c90-removebg-preview.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="arrow d"><img src="./images/arrow.svg" alt=""></div>
+                            <nav class="nav-dots">
+                                <div class="dot business active d"></div>
+                                <div class="dot business d "></div>
+                                <div class="dot business d"></div>
+                            </nav>
+                        </div>
+                        <div class="types-text">
+                            <h3>Aparat dalmierzowy</h3>
+                            <p>jest to rodzaj aparatu fotograficznego z wbudowanym dalmierzem. Ustawianie ostrości w takim aparacie polega na ręcznym spasowaniu podwójnego obrazu, uzyskanego ze stereoskopowego układu celowniczego. 
+                                </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-paragraph">
+                        <div>
+                            <p>Aparaty dalmierzowe mogą być małoobrazkowe oraz średnioformatowe. Najbardziej znane marki klasycznych aparatów małoobrazkowych dalmierzowych to m.in. Leica, Contax, Voigtlander, Canon, Nikon, Olympus, Minolta.</p> 
+                            
+                        </div>
+                    </div>
+                    
+                </section>
+                <section class="budowa section" id="budowa-section">
+                    <h2>Budowa aparatu fotograficznego</h2>
+                    <div class="budowa-div">
+                        <h3>Do podstawowych elementów aparatu należą:</h3>
+                        <ul>
+                            <li>obiektyw</li>
+                            <li>korpus światłoczuły</li>
+                            <li>migawka</li>
+                            <li>przysłona</li>
+                            <li>wizjer</li>
+                        </ul>
+                        <p><strong>Obiektyw</strong> to układ optyczny umożliwiający rzutowanie obrazu widzianych obiektów na matówkę (wizjer), błonę fotograficzną lub matrycę. W soczewkach wykorzystuje się zjawisko załamania światła. Charakteryzuje się ona ogniskową, czyli odległością między środkiem soczewki a punktem, w którym skupione są promienie światła. Im dłuższa ogniskowa, tym mniejszy kąt widzenia, ale większe zbliżenie. Obiektywy pozwalają natomiast na zbliżenie optyczne.</p>
+                        <img src="./images/obiektyw.png" alt="">
+                        <p><strong>Korpus</strong> aparatu fotograficznego zapobiega przenikaniu światła i chroni delikatne części wewnętrzne.</p>
+                        <p><strong>Migawka</strong> to urządzenie do otwierania i zamykania drogi światłu, które pada na materiał światłoczuły. Warto tutaj wspomnieć o różnicy między aparatem cyfrowym a analogowym – pierwszy z nich zamiast filmu (rolki) posiada półprzewodnik nazywany przetwornikiem obrazu, który jest matrycą z setką tysięcy lub milionami elementów światłoczułych. To ona decyduje o rozdzielczości zdjęć.</p>
+                        <img class="b" src="./images/podstawy-fotografii-migawka-fotografia-od-a-do-z-migawka-1-removebg-preview.png" alt="">
+                        <p><strong>Przysłona</strong> to kilka blaszek o sierpowatym kształcie zachodzących jedna na drugą w taki sposób, by mogły rozsuwać się i zsuwać, zmieniając średnicę otworu, przez który wpada światło. Kontroluje ona intensywność światła wpadającego do aparatu.</p>
+                        <p><strong>Wizjer</strong> umożliwia obserwację sceny i ocenę ostrości fotografowanego przedmiotu.</p>
+                    </div>
+                </section>
+                <section class="dzialanie section" id="dzialanie-section">
+                    <h2>Działanie aparatu fotograficznego</h2>
+                    <div class="budowa-div">
+                        <h3>W jaki sposób działają klasyczne aparaty fotograficzne?</h3>
+                        <p><strong>Obraz</strong> przechodzi przez <strong>obiektyw</strong>, <strong>przesłonę</strong> i <strong>migawkę</strong>, będąc rzucanym na przetwornik obrazu czyli <strong>matrycę CCD</strong>. W aparatach cyfrowych ma ona postać mozaiki – aby uzyskać kolorowy obraz, na monochromatyczne elementy czułe nałożone są <strong>filtry kolorowe</strong>. Po odczytaniu obrazu z matrycy, trafia on do przetwornika</strong>, a stąd na ekran LCD lub do wyjścia A/V. Druga magistrala biegnie do nośnika danych, gdzie magazynuje się pliki.</p>
+                        <h3>W jaki sposób działa aparat lustrzanka?</h3>
+                        <p>W optycznym wizjerze dostrzegamy obraz rzutowany na <strong>matówkę (wizjer)</strong> bezpośrednio z obiektywu poprzez uchylne lustro, które zasłania migawkę i matrycę. Gdy wykonujemy zdjęcie, lustro unosi się, a światło pada bezpośrednio na <strong>matrycę</strong>.</p>
+                        <h3>W jaki sposób działa aparat cyfrowy?</h3>
+                        <p>Układ optyczny tworzy obraz na <strong>przetworniku fotoelektrycznym (CCD, CMOS)</strong>, a współpracujący z nim układ elektroniczny odczytuje informacje o tym obrazie i przetwarza na postać cyfrową w układzie zwanym <strong>przetwornikiem analogowo-cyfrowym</strong>.</p>
+                        <p>Dane w postaci cyfrowej są zapisywane w plikach danych, w jednym z formatów zapisu obrazu – zazwyczaj JPEG (kompresja stratna), TIFF (kompresja bezstratna) lub RAW (pełna informacja z matrycy aparatu) – w cyfrowej pamięci aparatu.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <h2>Dziękuję za uwagę!</h2>
+        </footer>
+    </div>
+</body>
+<script type="module" src="./scripts/main.js"></script>
+<script src="./scripts/projectSlider.js" defer></script>
+<script src="./scripts/animations/animations.js"></script>
+<script src="./scripts/test.js"></script>
+</html>
