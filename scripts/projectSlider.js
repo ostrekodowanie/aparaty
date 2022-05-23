@@ -127,5 +127,4 @@ window.addEventListener('load', () => {
     translateImage('b', -1)
     translateImage('c', -1)
     translateImage('d', -1)
-    translateImage('e', -1)
 })

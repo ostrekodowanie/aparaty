@@ -62,29 +62,21 @@ gsap.to(':root', {
     } 
 })
 
-
-
-console.log( dzialanieTitles)
-
 const projectParagraphs = document.querySelectorAll('.types-text')
+console.log(projectParagraphs)
 
-const projectAnimation = () => {
-    projectParagraphs.forEach(paragraph => {
-        gsap.from(paragraph, {
-            duration: 1,
-            opacity: 0,
-            ease: Power1.easeOut,
-            scrollTrigger: {
-                trigger: paragraph,
-                start: 'top 65%'
-            }
-        })
+projectParagraphs.forEach(paragraph => {
+    gsap.from(paragraph, {
+        duration: 1,
+        opacity: 0,
+        ease: Power1.easeOut,
+        scrollTrigger: {
+            trigger: paragraph,
+            start: 'top 65%'
+        }
     })
-}
+})
 
-if (screenWidth >= 900) {
-    projectAnimation()
-}
 
 
     
